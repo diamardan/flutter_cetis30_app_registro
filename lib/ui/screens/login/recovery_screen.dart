@@ -1,6 +1,6 @@
-import 'package:cetis2_app_registro/src/controllers/SignIn/SignInEmailController.dart';
-import 'package:cetis2_app_registro/ui/res/notify_ui.dart';
-import 'package:cetis2_app_registro/src/utils/validator.dart';
+import 'package:cetis30_app_registro/src/controllers/SignIn/SignInEmailController.dart';
+import 'package:cetis30_app_registro/ui/res/notify_ui.dart';
+import 'package:cetis30_app_registro/src/utils/validator.dart';
 import 'package:flutter/material.dart';
 import 'package:modal_progress_hud_nsn/modal_progress_hud_nsn.dart';
 

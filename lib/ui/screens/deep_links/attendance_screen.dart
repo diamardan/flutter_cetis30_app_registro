@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:cetis2_app_registro/src/constants/constants.dart';
-import 'package:cetis2_app_registro/src/data/SharedService.dart';
+import 'package:cetis30_app_registro/src/constants/constants.dart';
+import 'package:cetis30_app_registro/src/data/SharedService.dart';
 import 'package:location/location.dart';
-import 'package:cetis2_app_registro/src/utils/attendance.dart';
+import 'package:cetis30_app_registro/src/utils/attendance.dart';
 
 class AttendanceLinkScreen extends StatefulWidget {
   const AttendanceLinkScreen({this.key, this.urlString}) : super(key: key);
@@ -117,7 +117,7 @@ class _AttendanceLinkScreenState extends State<AttendanceLinkScreen> {
             ],
           ),
           actions: <Widget>[
-            FlatButton(
+            MaterialButton(
               child: Text('Aceptar'),
               onPressed: () {
                 Navigator.of(context).pop();

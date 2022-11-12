@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'dart:io';
 import 'package:http/http.dart' as http;
-import 'package:cetis2_app_registro/src/utils/net_util.dart';
+import 'package:cetis30_app_registro/src/utils/net_util.dart';
 
 class PaymentsService {
   getAll() async {

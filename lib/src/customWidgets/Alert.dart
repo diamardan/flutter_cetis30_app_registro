@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
-import 'package:cetis2_app_registro/ui/screens/pago/payment_wrapper.dart';
-import 'package:cetis2_app_registro/ui/screens/preregistro/create_form.dart';
+import 'package:cetis30_app_registro/ui/screens/pago/payment_wrapper.dart';
+import 'package:cetis30_app_registro/ui/screens/preregistro/create_form.dart';
 
 showAlertDialog(BuildContext context, String title, String message,
     [String kind, bool redirect = false]) {
@@ -65,7 +65,7 @@ showAlertDialog(BuildContext context, String title, String message,
 
 showAlertPago(BuildContext context, String title, String message) {
   // Create button
-  Widget okButton = FlatButton(
+  Widget okButton = MaterialButton(
     child: Text("OK"),
     onPressed: () {
       Navigator.push(
@@ -92,7 +92,7 @@ showAlertPago(BuildContext context, String title, String message) {
 }
 
 showCompletedDownload(BuildContext context, title, message) {
-  Widget okButton = FlatButton(
+  Widget okButton = MaterialButton(
     child: Text("OK"),
     onPressed: () {
       Navigator.of(context).pop();

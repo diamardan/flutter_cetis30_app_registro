@@ -1,13 +1,13 @@
-import 'package:cetis2_app_registro/ui/res/colors.dart';
+import 'package:cetis30_app_registro/ui/res/colors.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:cetis2_app_registro/src/provider/supscritions_provider.dart';
-import 'package:cetis2_app_registro/src/provider/user_provider.dart';
-import 'package:cetis2_app_registro/src/routes/routes.dart';
-import 'package:cetis2_app_registro/ui/screens/login/wrapper_auth.dart';
-import 'package:cetis2_app_registro/src/data/AuthenticationService.dart';
+import 'package:cetis30_app_registro/src/provider/supscritions_provider.dart';
+import 'package:cetis30_app_registro/src/provider/user_provider.dart';
+import 'package:cetis30_app_registro/src/routes/routes.dart';
+import 'package:cetis30_app_registro/ui/screens/login/wrapper_auth.dart';
+import 'package:cetis30_app_registro/src/data/AuthenticationService.dart';
 import 'package:google_fonts/google_fonts.dart';
-//import 'package:cetis2_app_registro/src/bloc/deep_link_bloc.dart';
+//import 'package:cetis30_app_registro/src/bloc/deep_link_bloc.dart';
 import 'package:provider/provider.dart';
 
 import 'ui/res/design_constants.dart';
@@ -36,7 +36,7 @@ class MyApp extends StatelessWidget {
           ),
         ],
         child: MaterialApp(
-            title: 'CETIS 2 APP REGISTRO',
+            title: 'CETIS 30 APP REGISTRO',
             debugShowCheckedModeBanner: false,
             routes: getApplicationRoutes(context),
             theme: ThemeData(

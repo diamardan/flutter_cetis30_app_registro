@@ -1,7 +1,7 @@
 import 'dart:io';
 import 'package:http/http.dart' as http;
-import 'package:cetis2_app_registro/src/constants/constants.dart';
-import 'package:cetis2_app_registro/src/utils/net_util.dart';
+import 'package:cetis30_app_registro/src/constants/constants.dart';
+import 'package:cetis30_app_registro/src/utils/net_util.dart';
 
 class SemestresService {
   getAll() async {

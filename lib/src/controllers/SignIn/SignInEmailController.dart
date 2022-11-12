@@ -1,6 +1,6 @@
-import 'package:cetis2_app_registro/src/controllers/SignIn/SignInController.dart';
-import 'package:cetis2_app_registro/src/models/user_model.dart';
-import 'package:cetis2_app_registro/src/data/RegistrationService.dart';
+import 'package:cetis30_app_registro/src/controllers/SignIn/SignInController.dart';
+import 'package:cetis30_app_registro/src/models/user_model.dart';
+import 'package:cetis30_app_registro/src/data/RegistrationService.dart';
 import 'package:flutter/cupertino.dart';
 
 class SignInEmailController extends SignInController {

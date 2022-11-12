@@ -1,7 +1,7 @@
-import 'package:cetis2_app_registro/src/models/user_model.dart';
-import 'package:cetis2_app_registro/src/provider/user_provider.dart';
-import 'package:cetis2_app_registro/src/data/registrationService.dart';
-import 'package:cetis2_app_registro/src/utils/auth_sign_psw.dart';
+import 'package:cetis30_app_registro/src/models/user_model.dart';
+import 'package:cetis30_app_registro/src/provider/user_provider.dart';
+import 'package:cetis30_app_registro/src/data/registrationService.dart';
+import 'package:cetis30_app_registro/src/utils/auth_sign_psw.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 

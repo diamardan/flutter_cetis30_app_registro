@@ -1,5 +1,5 @@
-import 'package:cetis2_app_registro/ui/res/colors.dart';
-import 'package:cetis2_app_registro/ui/screens/access/calendar.dart';
+import 'package:cetis30_app_registro/ui/res/colors.dart';
+import 'package:cetis30_app_registro/ui/screens/access/calendar.dart';
 import 'package:flutter/material.dart';
 
 class AccessesScreen extends StatefulWidget {

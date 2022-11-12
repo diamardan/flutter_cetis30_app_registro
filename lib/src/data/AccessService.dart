@@ -1,9 +1,9 @@
 import 'dart:convert';
 import 'dart:io';
 
-import 'package:cetis2_app_registro/src/constants/constants.dart';
-import 'package:cetis2_app_registro/src/models/acceses_model.dart';
-import 'package:cetis2_app_registro/src/utils/net_util.dart';
+import 'package:cetis30_app_registro/src/constants/constants.dart';
+import 'package:cetis30_app_registro/src/models/acceses_model.dart';
+import 'package:cetis30_app_registro/src/utils/net_util.dart';
 import 'package:http/http.dart' as http;
 
 class AccessService {

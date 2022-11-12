@@ -1,7 +1,7 @@
-import 'package:cetis2_app_registro/src/constants/constants.dart';
-import 'package:cetis2_app_registro/src/models/notification_model.dart';
-import 'package:cetis2_app_registro/src/models/subscription_model.dart';
-import 'package:cetis2_app_registro/src/models/user_model.dart';
+import 'package:cetis30_app_registro/src/constants/constants.dart';
+import 'package:cetis30_app_registro/src/models/notification_model.dart';
+import 'package:cetis30_app_registro/src/models/subscription_model.dart';
+import 'package:cetis30_app_registro/src/models/user_model.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 

@@ -1,4 +1,4 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.identaflix.cetis2_app_registro">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.identaflix.cetis30_app_registro">
 	
 	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
@@ -9,7 +9,7 @@
 	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
-	<application android:name="${applicationName}" android:label="Cetis 2" android:icon="@mipmap/ic_launcher" android:requestLegacyExternalStorage="true">
+	<application android:name="${applicationName}" android:label="Cetis 30" android:icon="@mipmap/ic_launcher" android:requestLegacyExternalStorage="true">
 		<activity android:name=".MainActivity" android:launchMode="singleTop" android:theme="@style/NormalTheme" android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode" android:hardwareAccelerated="true" android:windowSoftInputMode="adjustResize" android:exported="true">
 			
 	       <meta-data android:name="io.flutter.embedding.android.NormalTheme" android:resource="@style/NormalTheme" />

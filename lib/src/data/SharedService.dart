@@ -1,4 +1,4 @@
-import 'package:cetis2_app_registro/src/constants/constants.dart';
+import 'package:cetis30_app_registro/src/constants/constants.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 
 class SharedService {

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:cetis2_app_registro/src/constants/constants.dart';
-//import 'package:cetis2_app_registro/ui/screens/pago/payment_form.dart';
+import 'package:cetis30_app_registro/src/constants/constants.dart';
+//import 'package:cetis30_app_registro/ui/screens/pago/payment_form.dart';
 
 import '../../res/colors.dart';
 

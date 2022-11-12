@@ -1,7 +1,7 @@
 import 'dart:async';
 
-import 'package:cetis2_app_registro/src/models/user_model.dart';
-import 'package:cetis2_app_registro/src/data/RegistrationService.dart';
+import 'package:cetis30_app_registro/src/models/user_model.dart';
+import 'package:cetis30_app_registro/src/data/RegistrationService.dart';
 import 'package:flutter/widgets.dart';
 //import 'package:cetis32_app_registro/src/utils/log_util.dart';
 import 'package:shared_preferences/shared_preferences.dart';
