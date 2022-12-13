@@ -1,7 +1,7 @@
 class AppConstants {
   //backendUrl hace referencia ya sea a la url de producción o a la de desarrollo
   static const backendUrl = 'https://escuelas.identaflix.com/api/v1/firebase';
-  //static const backendUrl = 'http://192.168.1.72:5000/api/v1/firebase';
+  //static const backendUrl = 'http://192.168.1.64:5000/api/v1/firebase';
   static const backendPublicUrl = 'https://escuelas.identaflix.com/public';
   static const backendBaseUrl = 'https://escuelas.identaflix.com/api/v1';
   //static const whatsappNumber = '+5215520779800';

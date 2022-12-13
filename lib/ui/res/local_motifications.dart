@@ -64,7 +64,7 @@ class LocalNotificationsService {
       NotificationDetails(
           android: AndroidNotificationDetails(_channel.id, _channel.name,
               /* _channel.description, */
-              icon: "@mipmap/launch"
+              icon: "@mipmap/ic_launcher"
               // other properties...
               )), /* payload: "go-to-notification"*/
     );
