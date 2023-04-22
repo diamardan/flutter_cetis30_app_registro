@@ -67,6 +67,7 @@ class _CalendarState extends State<Calendar> {
   _getAccess(String idBio) async {
     try {
       var result = await accesService.getAllById(idBio);
+      print(result);
       fillMap(result);
       setLoading(false);
       _selectedEvents.value = _getAccessForDay(_focusedDay);
@@ -83,9 +84,9 @@ class _CalendarState extends State<Calendar> {
   fillMap(List<Event> _events) {
     setState(() {
       _events.forEach((e) {
-        if (e.checkInTime != null && e.checkInTime != "")
+        if (e.checkInTime != null)
           events[e.date] = [Access(time: e.checkInTime, type: "Entrada")];
-        if (e.departureTime != null && e.departureTime != "null")
+        if (e.departureTime != null)
           events[e.date].add(Access(time: e.departureTime, type: "Salida"));
       });
     });
